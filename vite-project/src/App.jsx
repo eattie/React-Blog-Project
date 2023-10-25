@@ -36,7 +36,7 @@ function App() {
       <YouTubeEmbed videoId={"ORlMPXEBioU"}></YouTubeEmbed>
       <h2>What we learned</h2>
       <p>For one, we learned how to integrate MediaPipePose with Unity, all the while learning socket programming for data transfer via servers in python. We learned how to integrate c# with python since unity only works on c# scripts and MediaPipePose only works on python scripts. We also learned how to use openCV and computer vision pretty intimately, since we had to work around a number of limitations for the libraries and old legacy code lurking around Google. There was also an element of asynchronous code handling via queues. Cool to see the data structure in action!</p>
-
+      <h3><a href="http://localhost:5173" className="next-article-button">Next Article</a></h3>
     </div>
   )
 }

@@ -28,6 +28,7 @@ function App1() {
       author: "EtaiGPT"
       
       
+      
     },
   ];
 
@@ -42,6 +43,7 @@ function App1() {
         <div>
             <button onClick={handleClick}>Press if you love PUGS!</button>
             <p>{count} people have pressed this button!</p>
+            <h3><a href="http://localhost:3001" className="next-article-button">Next Article</a></h3>
         </div>
     );
   }
