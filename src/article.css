@@ -1,0 +1,57 @@
+/* General styles for the entire article container */
+.article-container {
+    margin: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.article-container h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Content styles */
+.article-content {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.article-content p {
+    margin-bottom: 15px;
+}
+
+.article-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.article-content ul li {
+    margin-bottom: 10px;
+}
+
+/* Author styles */
+.article-author {
+    font-weight: bold;
+    color: #666;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+    margin-top: 15px;
+}
+
+/* If you have any links within the article */
+.article-content a {
+    color: #007bff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.article-content a:hover {
+    text-decoration: underline;
+}
