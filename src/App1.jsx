@@ -4,7 +4,7 @@ import pugImage from './assets/pug.jpeg';
 import './App.css';
 import './article.css';
 
-function App() {
+function App1() {
   const articles = [
     {
       id: 1,
@@ -57,6 +57,6 @@ function App() {
   );
 }
 
-export default App;
+export default App1;
 
 

@@ -1,0 +1,100 @@
+body {
+  background-color: white;
+  color: black;
+}
+
+.social-media-links {
+  position: fixed;
+  top: 50%; /* Adjust as needed */
+  right: 80px; /* Adjust as needed */
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media-links a {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333; /* Change the color as needed */
+}
+
+.spec {
+  padding: 10px;
+  padding-right: 30px;
+  color: white;
+}
+.Image {
+  position: relative;
+  text-align: center; /* Center text horizontally */
+  margin-bottom: 30px;
+  max-width: 1000;
+}
+
+.TopBar {
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  max-width: 1000px;
+  color: #464542;
+}
+
+img {
+  display: block; /* Ensure the image takes up the full width of the container */
+  max-width: 1000px;
+}
+
+figcaption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7); /* Add a semi-transparent background */
+  color: white; /* Text color for the caption */
+  padding: 10px; /* Adjust padding to your preference */
+  text-align: left; /* Center text within the caption */
+  max-width: 700px;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: white;
+}
