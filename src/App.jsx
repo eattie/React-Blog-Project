@@ -10,14 +10,24 @@ function App() {
       id: 1,
       image: pugImage,
       title: "Why Pugs Are Man's Best Friend",
-      content: `Pugs, with their wrinkly faces and endearing personalities, have won the hearts of many. Here's why they're considered one of the best dog breeds:
+      content: (
+        <>
+          <span style={{ fontSize: '18px' }}>
+            Pugs, with their <strong>wrinkly faces</strong> and <strong>endearing personalities</strong>, have won the hearts of many. Here's why they're considered one of the best dog breeds:
+          </span>
+            
+          <ol style={{ fontSize: '18px' }}>
+            <li><strong>Their Loving Nature</strong>: Pugs are known for their affectionate nature. They thrive on human companionship and are often described as "shadows" because they like to stick close to their owners.</li>
       
-      1. **Their Loving Nature**: Pugs are known for their affectionate nature. They thrive on human companionship and are often described as "shadows" because they like to stick close to their owners.
-
-      2. **They're Great with Kids**: Thanks to their gentle temperament, pugs usually get along splendidly with children, making them perfect family pets.
-
-      3. **Easy to Maintain**: While they may need regular cleaning around their facial wrinkles, pugs generally require less grooming compared to long-haired breeds.`,
+            <li><strong>They're Great with Kids</strong>: Thanks to their gentle temperament, pugs usually get along splendidly with children, making them perfect family pets.</li>
+      
+            <li><strong>Easy to Maintain</strong>: While they may need regular cleaning around their facial wrinkles, pugs generally require less grooming compared to long-haired breeds.</li>
+          </ol>
+        </>
+      ),
       author: "EtaiGPT"
+      
+      
     },
   ];
 
